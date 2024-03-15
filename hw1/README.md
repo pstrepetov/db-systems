@@ -1,24 +1,24 @@
-** Запускаем контейнер **
+**Запускаем контейнер**
 ![docker](png/docker.png)
 
 ![mongodb](png/mongodb.png)
 
-** Импортируем датасет **
+**Импортируем датасет**
 ![import](png/import.png)
 
-** C - create **
+**C - create**
 ![create](png/create.png)
 
-** R - read **
+**R - read**
 ![read](png/read.png)
 
-**  U - update **
+**U - update**
 ![update](png/update.png)
 
-** D - delete **
+**D - delete**
 ![delete](png/delete.png)
 
-** Сравниваем производительность с индексом и без **
+**Сравниваем производительность с индексом и без**
 ![idx1](png/idx1.png)
 ![idx2](png/idx2.png)
 ![idx3](png/idx3.png)
