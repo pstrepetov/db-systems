@@ -1,60 +1,29 @@
 version: "3.8"
-
 name: mongodbnew
 
 networks:
-
   mongodb_network:
-
     driver: bridge
 
-
-
 volumes:
-
   mdb:
-
     name: mdb
-
     external: true
-
   mdbcfg:
-
     name: mdbcfg
-
     external: true
-
-
 
 services:
-
   mongodb:
-
     image: mongo:4
-
-    restart: always
-
     container_name: mongodb
-
     ports:
-
       - "27017:27017"
-
     volumes:
-
       - mdb:/data/db
-
       - mdbcfg:/data/configdb
-
     environment:
-
       - MONGO_INITDB_ROOT_USERNAME=rootuser
-
       - MONGO_INITDB_ROOT_PASSWORD=rootpass
-
     networks:
-
       - mongodb_network
-
-
-
