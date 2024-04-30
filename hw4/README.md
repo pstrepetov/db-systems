@@ -10,7 +10,7 @@ LMDB (Lightning Memory-Mapped Database) - это встраиваемая key-va
 
 ## Инструменты для взаимодействия с LMDB
 
-LMDB предоставляет API на языке C для взаимодействия с базой данных. Также доступны обертки для различных языков программирования, например для C++, Java, Python, Go, Ruby… Список всех ЯП, для которых реализовано API, доступен по ссылке [www.symas.com/symas-lmdb-tech-info](www.symas.com/symas-lmdb-tech-info).
+LMDB предоставляет API на языке C для взаимодействия с базой данных. Также доступны обертки для различных языков программирования, например для C++, Java, Python, Go, Ruby… Список всех ЯП, для которых реализовано API, доступен по [ссылке](www.symas.com/symas-lmdb-tech-info).
 
 ## Какой database engine используется в LMDB?
 
@@ -57,7 +57,7 @@ LMDB написана на языке C
 
 ## g.	Какие типы индексов поддерживаются в LMDB? 
 
-LMDB не поддерживает индексы "из коробки", но существуют надстройки над LMDB, поддерживающие индексы, например lmdb-index ([https://github.com/anywhichway/lmdb-index/](https://github.com/anywhichway/lmdb-index/)).
+LMDB не поддерживает индексы "из коробки", но существуют надстройки над LMDB, поддерживающие индексы, например [lmdb-index](https://github.com/anywhichway/lmdb-index/)
 
 ## Как строится процесс выполнения запросов в LMDB?
 
@@ -134,7 +134,7 @@ LMDB – open-source проект, разрабатывается компани
 
 ## Где найти документацию и пройти обучение. Как быть в курсе происходящего
 
-[официальная документация](http://www.lmdb.tech/doc/) здесь же можно посмотреть [основы](http://www.lmdb.tech/doc/starting.html)
+[официальная документация](http://www.lmdb.tech/doc/), здесь же можно посмотреть [основы](http://www.lmdb.tech/doc/starting.html)
 
 [доки для питоновской библиотеки](https://lmdb.readthedocs.io/en/release/)
 
